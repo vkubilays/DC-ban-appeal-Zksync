@@ -7,9 +7,14 @@ async function sendUnbanEmail(usersInfo, url) {
     sendGridMail.setApiKey(process.env.SENDGRID_API_KEY);
     const html = `
       <div> 
-         Hi ${usersInfo.username}#${usersInfo.user_discriminator}! <br>
-         Your ban appeal request submitted on ${url} has been approved!<br>
-         You are now able to rejoin us using this invite ${process.env.INVITE_URL}
+         Hi ${usersInfo.username}#${usersInfo.user_discriminator}, <br>
+         <br>
+         Your ban appeal request submitted on ${url} has been approved! You are now able to rejoin us using this invite ${process.env.INVITE_URL}.
+         You can also use the Discord invite link directly on our homepage, <a href="https://zksync.io/">https://zksync.io</a>. <br>
+         <br>
+         Sincerely,
+         <br>
+         The zkSync Community
       </div>
     `;
     const mail = {
