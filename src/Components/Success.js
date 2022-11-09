@@ -6,7 +6,7 @@ class Success extends Component {
         return (
             <Grid item>
                 <h1 style={{textAlign: "center", color: "#00e676"}}>Success! Your ban appeal has been submitted to the mods!</h1>
-                <h4>Please allow some time for them to review your appeal. Abusing this system will result in a perma-ban.</h4>
+                <h4>Please allow some time for them to review your appeal and check the email used for your Discord account for a response from the zkSync team. Abusing this system will result in a perma-ban.</h4>
             </Grid>
         );
     }
