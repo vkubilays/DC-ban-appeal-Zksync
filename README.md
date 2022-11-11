@@ -35,7 +35,7 @@ Inspired by [sylveon](https://github.com/sylveon/discord-ban-appeals)
 <a name="netlify"></a>
 ## Easy Way: Deploy on Netlify
 
-[![](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jcsumlin/discord-ban-appeal)
+[![](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/matter-labs/discord-ban-appeal)
 
 > **NOTE**: If you already have a custom bot in your server and access to its credentials, skip the first step
 - Create a custom bot inside your server. You can register/invite one [here](https://discord.com/developers/applications). Keep that window handy.
