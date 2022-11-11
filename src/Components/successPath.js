@@ -8,7 +8,7 @@ const ErrorPath = () => {
     return (
         <Grid item>
             <h1 style={{textAlign: "center", color: "#00e676"}}>Success!</h1>
-            <h4>Please allow some time for the team to review your appeal and check the email used for your Discord account for a response from community@zksync.io. Abusing this system will result in a perma-ban.</h4>
+            <h4>{msg}</h4>
         </Grid>
     )
 }
